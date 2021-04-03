@@ -19,7 +19,7 @@ def display(msg):
 
     return
 
-cred = credentials.Certificate("/home/zach/code/TextScroll/serviceAccountKey.json")
+cred = credentials.Certificate("./serviceAccountKey.json")
 firebase_admin.initialize_app(cred)
 
 db = firestore.client()
