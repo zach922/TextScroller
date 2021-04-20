@@ -31,13 +31,7 @@ from luma.core.virtual import viewport
 from luma.core.legacy import text, show_message
 from luma.core.legacy.font import proportional, CP437_FONT, TINY_FONT, SINCLAIR_FONT, LCD_FONT
 
-conf = {
-    "apiKey" : getCreds(),
-    "authDomain" : "text-scroller-ccc3c.firebaseapp.com",
-    "databaseURL" : "https://text-scroller-ccc3c-default-rtdb.firebaseio.com/",
-    "storageBucket" : "text-scroller-ccc3c.appsop.com",
-    "serviceAccount" : "/home/pi/scroller/serviceAccountKey.json"
-}
+conf = getCreds()
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(22, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
