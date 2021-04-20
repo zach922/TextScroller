@@ -16,8 +16,8 @@ Here is the device outside of the box. the led matrix is 5in x 1.25in.
 
 The mock up of the box is here. It will finally be done in wood.
 
-![Box front left](./assets/boxmock1.jpg)
+![Box front left](./assets/boxmock1.JPG)
 
-![Box back left](./assets/boxmock2.jpg)
+![Box back left](./assets/boxmock2.JPG)
 
 ### Final Product
